@@ -13,6 +13,15 @@ public class Bottle {
         return this.volume - 10;
     }
 
+    public int empty() {
+        int empty = 0;
+       return this.volume * empty;
+    }
+
+
+
+
+
 
 
 }
