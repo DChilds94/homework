@@ -9,6 +9,10 @@ public class Bottle {
         return this.volume;
     }
 
+    public int drinkFromBottle() {
+        return this.volume - 10;
+    }
+
 
 
 }
