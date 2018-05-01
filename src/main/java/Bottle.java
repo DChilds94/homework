@@ -18,6 +18,14 @@ public class Bottle {
        return this.volume * empty;
     }
 
+    public int fill() {
+        int empty = 0;
+        int result = this.volume * empty;
+        return result + 100;
+    }
+
+
+
 
 
 
